@@ -34,7 +34,7 @@ const CheckoutItem = ({ product }) => {
 				<Arrow onClick={() => addItemToCart(product)}>&rarr;</Arrow>
 			</Quantity>
 
-			<span className='price'>{quantity * price}</span>
+			<BaseSpan>{quantity * price}</BaseSpan>
 			<RemoveButton onClick={() => removeItemFromCheckout(product)}>
 				&#10005;
 			</RemoveButton>
