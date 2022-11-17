@@ -1,4 +1,3 @@
-import { create } from 'lodash';
 import { createAction } from '../../utils/reducer.utils';
 import { USER_ACTION_TYPES } from './user.types';
 
